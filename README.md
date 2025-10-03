@@ -6,7 +6,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 
 - **Node.js**: Version 14 or higher.
 - **Slack Bot Token**: Obtain a bot token from your Slack app with the necessary permissions (`chat:write`, `conversations:read`, etc.).
-- **Environment Configuration**: A `.env` file with your Slack Bot Token.
+- **Environment Configuration**: A `.env` file with your Slack Bot Token. add SLACK_BOT_TOKEN="xoxb-9624675806806-9630512689668-qRacMCLiHRkBpwd0T5gJ5aRT"
 
 ## Setup
 
