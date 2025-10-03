@@ -2,6 +2,8 @@
 
 This is a Node.js application using Express to interact with the Slack API for sending, scheduling, retrieving, editing, and deleting messages in Slack channels. The application uses the `axios` library to make API calls to Slack and requires a Slack Bot Token for authentication.
 
+<img width="1919" height="807" alt="Image" src="https://github.com/user-attachments/assets/a94b8781-a52a-457e-9d69-569fbae79bff" />
+
 ## Prerequisites
 
 - **Node.js**: Version 14 or higher.
