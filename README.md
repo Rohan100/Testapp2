@@ -41,7 +41,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 - **Input Format**:
   ```json
   {
-    "channel": "string", // Slack channel ID (e.g., "C12345678")
+    "channel": "string", // Slack channel ID (e.g., "C09JD036THU")
     "text": "string"    // Message content
   }
   ```
@@ -56,7 +56,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 - **Input Format**:
   ```json
   {
-    "channel": "string", // Slack channel ID (e.g., "C12345678")
+    "channel": "string", // Slack channel ID (use "C09JD036THU")
     "text": "string",   // Message content
     "date": "string",   // Date in YYYY-MM-DD format
     "time": "string"    // Time in HH:MM format (24-hour)
@@ -76,7 +76,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 - **Endpoint**: `GET /messages/:channel`
 - **Description**: Retrieves the message history for a specified Slack channel.
 - **Input Format**:
-  - URL parameter: `channel` (Slack channel ID, e.g., "C12345678").
+  - URL parameter: `channel` (use "C09JD036THU").
 - **Parameters**:
   - `channel`: The ID of the Slack channel to retrieve messages from.
 - **Response**:
@@ -98,7 +98,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 - **Input Format**:
   ```json
   {
-    "channel": "string", // Slack channel ID (e.g., "C12345678")
+    "channel": "string", // Slack channel ID (use "C09JD036THU")
     "ts": "string",     // Timestamp of the message to edit
     "text": "string"    // Updated message content
   }
@@ -114,7 +114,7 @@ This is a Node.js application using Express to interact with the Slack API for s
 - **Input Format**:
   ```json
   {
-    "channel": "string", // Slack channel ID (e.g., "C12345678")
+    "channel": "string", // Slack channel ID (use "C09JD036THU")
     "ts": "string"      // Timestamp of the message to delete
   }
   ```
